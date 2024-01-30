@@ -11,6 +11,7 @@ import ConditionalRenderingFunctional from "./components/ConditionalRenderingFun
 import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import RenderingLists from "./components/RenderingLists";
+import Clock from "./components/Clock";
 
 function App() {
   return (
@@ -52,6 +53,13 @@ function App() {
   return <div className="App">
       <RenderingLists />
   </div>;
+}
+
+
+function App() {
+  return <div className="App">
+      <Clock />
+    </div>;
 }
 
 
