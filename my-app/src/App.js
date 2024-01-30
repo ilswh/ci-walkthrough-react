@@ -14,6 +14,7 @@ import RenderingLists from "./components/RenderingLists";
 import Clock from "./components/Clock";
 import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 function App() {
   return (
@@ -64,16 +65,26 @@ function App() {
     </div>;
 }
 
+
 function App() {
   return <div className="App">
       <LifeCyclesCDM />
   </div>;
 }
 
+
 function App() {
   return <div className="App">
       <LifeCyclesCDU />
   </div>;
 }
+
+
+function App() {
+  return <div className="App">
+      <LifeCyclesCWU />
+    </div>;
+}
+
 
 export default App;
