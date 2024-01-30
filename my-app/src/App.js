@@ -15,6 +15,10 @@ import Clock from "./components/Clock";
 import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
+// Challenges
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/NavBarForm";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -86,5 +90,16 @@ function App() {
     </div>;
 }
 
+// Challenges
+function App() {
+  return (
+    <div className={css.App}>
+      {/* Add your components here */}
+      <NavBarForm />
+      <Sidebar />
+      <Content />
+    </div>
+  );
+}
 
 export default App;
