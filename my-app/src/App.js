@@ -12,6 +12,7 @@ import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import RenderingLists from "./components/RenderingLists";
 import Clock from "./components/Clock";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
   return (
@@ -62,5 +63,10 @@ function App() {
     </div>;
 }
 
+function App() {
+  return <div className="App">
+      <LifeCyclesCDM />
+  </div>;
+}
 
 export default App;
