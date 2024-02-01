@@ -28,6 +28,7 @@ import Sidebar from "./components/Sidebar";
 import NavBarForm from "./components/NavBarForm";
 import Content from "./components/Content";
 import ContentHooks from "./components/ContentHooks";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return (
@@ -128,6 +129,12 @@ function App() {
 function App() {
   return <div className="App">
       <UseEffectCounter />
+  </div>;
+}
+
+function App() {
+  return <div className="App">
+      <HTTPHooks />
   </div>;
 }
 
