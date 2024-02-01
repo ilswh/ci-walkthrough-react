@@ -16,10 +16,18 @@ import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
+import ControlledFormHooks from "./components/ControlledFormHooks";
+import UseStateWithArrays from "./components/UseStateWithArrays";
+// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+// import HooksCounter from "./components/HooksCounter";
+import UseStateWithObjects from "./components/UseStateWithObjects";
+import UseEffectCounter from "./components/UseEffectCounter";
 // Challenges
+// import NavBarSimple from "./components/NavBarSimple";
 import Sidebar from "./components/Sidebar";
 import NavBarForm from "./components/NavBarForm";
 import Content from "./components/Content";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
@@ -97,6 +105,32 @@ function App() {
   </div>;
 }
 
+function App() {
+  return <div className="App">
+      <ControlledFormHooks />
+  </div>;
+}
+
+function App() {
+  return <div className="App">
+     <UseStateWithArrays /> 
+  </div>;
+}
+
+function App() {
+  return <div className="App">
+      {/* <StatefulGreetingWithPrevState />
+      <HooksCounter /> */}
+      <UseStateWithObjects />
+  </div>;
+}
+
+function App() {
+  return <div className="App">
+      <UseEffectCounter />
+  </div>;
+}
+
 // Challenges
 function App() {
   return (
@@ -104,7 +138,8 @@ function App() {
       {/* Add your components here */}
       <NavBarForm />
       <Sidebar />
-      <Content />
+      {/* <Content /> */}
+      <ContentHooks />
     </div>
   );
 }
