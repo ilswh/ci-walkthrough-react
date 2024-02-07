@@ -30,6 +30,7 @@ import Content from "./components/Content";
 import ContentHooks from "./components/ContentHooks";
 import HTTPHooks from "./components/HTTPHooks";
 import ContentAPI from "./components/ContentAPI";
+import ContentAPIHooks from "./components/ContentAPIHooks";
 
 
 function App() {
@@ -162,6 +163,20 @@ function App() {
       {/* <Content /> */}
       {/* <ContentHooks /> */}
       <ContentAPI />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div className={css.App}>
+      {/* Add your components here */}
+      <NavBarForm />
+      <Sidebar />
+      {/* <Content /> */}
+      {/* <ContentHooks /> */}
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
