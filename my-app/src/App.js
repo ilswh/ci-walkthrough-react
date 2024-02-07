@@ -29,6 +29,8 @@ import NavBarForm from "./components/NavBarForm";
 import Content from "./components/Content";
 import ContentHooks from "./components/ContentHooks";
 import HTTPHooks from "./components/HTTPHooks";
+import ContentAPI from "./components/ContentAPI";
+
 
 function App() {
   return (
@@ -150,5 +152,19 @@ function App() {
     </div>
   );
 }
+
+function App() {
+  return (
+    <div className={css.App}>
+      {/* Add your components here */}
+      <NavBarForm />
+      <Sidebar />
+      {/* <Content /> */}
+      {/* <ContentHooks /> */}
+      <ContentAPI />
+    </div>
+  );
+}
+
 
 export default App;
